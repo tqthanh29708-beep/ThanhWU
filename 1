@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clothing Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Fashion Store</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>New Arrivals</h2>
+    <p>Discover the latest trends in fashion.</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section id="products">
+    <h2>Products</h2>
+    <div class="product-list">
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Shirt">
+        <h3>Classic Shirt</h3>
+        <p>$25.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Hoodie">
+        <h3>Casual Hoodie</h3>
+        <p>$45.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Jeans">
+        <h3>Blue Jeans</h3>
+        <p>$35.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Fashion Store | All Rights Reserved</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
